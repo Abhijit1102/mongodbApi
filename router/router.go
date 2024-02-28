@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
-	"github.com/gorilla/mux" // Import the mux package
+	"github.com/Abhijit1102/mongodbApi/controllers"
+	"github.com/gorilla/mux" 
 )
 
 func Router() *mux.Router {
